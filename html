@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="Keyboard">
+        <input type="text" name="screen" readonly size="45">
+        <br>
+        <input type="button" value="Q" onclick="document.Keyboard.screen.value+='Q'">
+        <input type="button" value="W" onclick="document.Keyboard.screen.value+='W'">
+        <input type="button" value="E" onclick="document.Keyboard.screen.value+='E'">
+        <input type="button" value="R" onclick="document.Keyboard.screen.value+='R'">
+        <input type="button" value="T" onclick="document.Keyboard.screen.value+='T'">
+        <input type="button" value="Y" onclick="document.Keyboard.screen.value+='Y'">
+        <input type="button" value="U" onclick="document.Keyboard.screen.value+='U'">
+        <input type="button" value="I" onclick="document.Keyboard.screen.value+='I'">
+        <input type="button" value="O" onclick="document.Keyboard.screen.value+='O'">
+        <input type="button" value="P" onclick="document.Keyboard.screen.value+='P'">
+        <br>
+        <input type="button" value="A" class="mid" onclick="document.Keyboard.screen.value+='A'">
+        <input type="button" value="S" class="mid" onclick="document.Keyboard.screen.value+='S'">
+        <input type="button" value="D" class="mid" onclick="document.Keyboard.screen.value+='D'">
+        <input type="button" value="F" class="mid" onclick="document.Keyboard.screen.value+='F'">
+        <input type="button" value="G" class="mid" onclick="document.Keyboard.screen.value+='G'">
+        <input type="button" value="H" class="mid" onclick="document.Keyboard.screen.value+='H'">
+        <input type="button" value="J" class="mid" onclick="document.Keyboard.screen.value+='J'">
+        <input type="button" value="K" class="mid" onclick="document.Keyboard.screen.value+='K'">
+        <input type="button" value="L" class="mid" onclick="document.Keyboard.screen.value+='L'">
+        <br>
+        <input type="button" value="Z" class="btn" onclick="document.Keyboard.screen.value+='Z'">
+        <input type="button" value="X" class="btn" onclick="document.Keyboard.screen.value+='X'">
+        <input type="button" value="C" class="btn" onclick="document.Keyboard.screen.value+='C'">
+        <input type="button" value="V" class="btn" onclick="document.Keyboard.screen.value+='V'">
+        <input type="button" value="B" class="btn" onclick="document.Keyboard.screen.value+='B'">
+        <input type="button" value="N" class="btn" onclick="document.Keyboard.screen.value+='N'">
+        <input type="button" value="M" class="btn" onclick="document.Keyboard.screen.value+='M'">
+        <br>
+        <input type="button" value="Space" id="space" onclick="document.Keyboard.screen.value+=' '">
+        <input type="button" value="Del" id="del" onclick="document.Keyboard.screen.value=document.Keyboard.screen.value.slice(0,-1)">
+    </form>
+</body>
+</html>
