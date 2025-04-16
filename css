@@ -1,0 +1,54 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://th.bing.com/th/id/R.552d60aca1000d531ecfd7a9eb493122?rik=Zql2DlSbiqE0mQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fdkSK3Dv.jpg&ehk=rWPnWeSlDvA02xfy3AkrUc7%2bHpVg5zBI6Xkn89rFOjo%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+        input[type="text"] {
+            height: 30px;
+            font-size: 15px;
+            background: black;
+            color: white;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+        input[type="button"] {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            margin: 5px;
+            animation: key 2s infinite;
+            cursor: pointer;
+        }
+        @keyframes key {
+            0% { box-shadow: 0px 0px 7px red; }
+            25% { box-shadow: 0px 0px 7px green; }
+            50% { box-shadow: 0px 0px 7px blue; }
+            75% { box-shadow: 0px 0px 7px yellow; }
+            100% { box-shadow: 0px 0px 7px orange; }
+        }
+        input[type="button"]:hover {
+            transform: scale(1.1);
+        }
+        .mid {
+            margin-left: 15px;
+        }
+        .btn {
+            margin-left: 36px;
+        }
+        #del {
+            background-color: red;
+            color: white;
+        }
+        #space {
+            width: 250px;
+        }
+    
